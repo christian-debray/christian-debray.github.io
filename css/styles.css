@@ -10970,3 +10970,19 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+@media (min-width: 992px) {
+  #sideNav ul.navbar-nav ul {
+    padding-left: 0;
+  }
+  #sideNav ul.navbar-nav li.nav-item.active > ul {
+    border-bottom: solid 1px rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .05);
+  }
+
+  #sideNav ul.navbar-nav > li.nav-item.active > a.nav-link {
+    border-bottom: solid 1px rgba(255, 255, 255, .5);
+    border-top: solid 1px rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .2)
+  }
+}
